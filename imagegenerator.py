@@ -77,7 +77,7 @@ def draw_subtitles(subtitles):
         image = trim_transparent_border(image)
 
         # Save the image
-        image_path = f"C:/Users/bigbr/Desktop/redditbot v2/temp/subtitles/subtitle{i}.png"
+        image_path = f"temp/subtitles/subtitle{i}.png"
         image.save(image_path, "PNG", quality=95)
 
 def calculate_text_dimensions(text, font, width=34):
