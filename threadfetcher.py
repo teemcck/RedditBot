@@ -6,8 +6,8 @@ import os
 import re
 
 def fetch_thread_info():
-    CLIENT_ID = 'TnYW6XrOUFOPglFVpMA0nQ'
-    CLIENT_SECRET = 'wdm1I8VI3mR3iiRfEjTCXJruizOZ_w'
+    CLIENT_ID = 'redact'
+    CLIENT_SECRET = 'redact'
     USED_THREADS_FILE = 'used_threads.txt'
 
     SYSTEM_INFO = platform.system()
